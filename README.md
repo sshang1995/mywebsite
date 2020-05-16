@@ -1,1 +1,2 @@
-# shu
+# personal website
+shushang.me
