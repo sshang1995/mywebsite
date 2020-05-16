@@ -1,0 +1,64 @@
+body{
+  margin:0px;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.container.row.featurette{
+	position: relative;
+	z-index: 1;
+  top: 200px;
+  left: 100px;
+}
+
+
+.featurette-heading{
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+
+.lead {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.radial-gradient {
+  position: fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+
+ 
+  background: #9b59b6;
+  background: 
+    radial-gradient(
+     at center, #3498db, #9b59b6
+    );
+}
+
+@media (max-width: 576px) { 
+  .container.row.featurette{
+  position: relative;
+  z-index: 1;
+  top:0px;
+  left:0px;
+}
+  }
+
+@media (max-width: 768px) { 
+  .container.row.featurette{
+  position: relative;
+  z-index: 1;
+}
+  }
+
+@media (max-width: 992px) { 
+.container.row.featurette{
+  position: relative;
+  z-index: 1;
+}
+  }
