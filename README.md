@@ -1,2 +1,2 @@
 # personal website
-shushang.me
+http://shushang.me
