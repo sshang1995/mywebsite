@@ -21,9 +21,24 @@ body{
 }
 
 .lead {
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   color: white;
 }
+
+
+.link {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration-line: underline;
+
+}
+.link:hover {
+  color:orange;
+  text-decoration: none;
+
+}
+
 
 .radial-gradient {
   position: fixed;
@@ -39,6 +54,8 @@ body{
      at center, #3498db, #9b59b6
     );
 }
+
+
 
 @media (max-width: 576px) { 
   .container.row.featurette{
